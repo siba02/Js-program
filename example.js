@@ -1,4 +1,4 @@
-///Q.1 check if multiple of 6 or not.
+/*///Q.1 check if multiple of 6 or not.
 let x=prompt("Enter a number")
  if(x%6===0){
     console.log(x," is  divisible 6 ")
@@ -26,4 +26,19 @@ else if(score>=70&& score<=89){
 else{
     grade="f"
 }
-console.log(grade)
+console.log(grade)*/
+
+/// Q.3 print all the even numbers from 0 to 100.
+//   for(let i=0;i<=100;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+//   }
+
+///Q.4 create a game where you start with any random game number.Ask the user to keep guessing the number until the user enters the correct value.
+     let gameNum=80;
+     let userNum=prompt("Enter the game number")
+     while(userNum!=gameNum){
+         userNum=prompt("you entered the wrong number ")
+     }
+    console.log("congratulation you entered the right number");  
