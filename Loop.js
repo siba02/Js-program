@@ -17,7 +17,7 @@ for (let i=1; i<=10;i++){
  console.log("sum=",sum);
 
  
- ///while loop.
+///while loop.
  
 while(condition){
   updation;
@@ -40,7 +40,7 @@ while(condition){
         console.log("x=",x);
 
 
-   /// do while loop.   
+/// do while loop.   
    
     do{
         updation;
@@ -52,6 +52,7 @@ while(condition){
    for(letVal of strVar){
     condition;
    }
+//    Example
 
  let str="i am invincible"
     let size=0;
