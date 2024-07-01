@@ -46,7 +46,7 @@ console.log(grade)
 
 ///Q.5 prompt the user to enter their fullname.Generate a username based on the input.Starts with @,followed by their fullname 
 // and ending by their fullname length.
-    // let str=prompt("Enter your fullname ");
+    let str=prompt("Enter your fullname ");
     let res="@"+str+str.length;
     console.log(res);
 
