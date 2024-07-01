@@ -8,7 +8,7 @@ let x=prompt("Enter a number")
  }
 
 
-// Q.2greade system 90-100(A),70-89(B),60-69(C),50-59(D),<49(F)
+// Q.2 greade system 90-100(A),70-89(B),60-69(C),50-59(D),<49(F)
 
 let score=prompt("enter your score");
 let grade;
@@ -35,10 +35,18 @@ console.log(grade)
     }
   }
 
-///Q.4 create a game where you start with any random game number.Ask the user to keep guessing the number until the user enters the correct value.
+///Q.4 create a game where you start with any random game number.
+// Ask the user to keep guessing the number until the user enters the correct value.
      let gameNum=80;
      let userNum=prompt("Enter the game number")
      while(userNum!=gameNum){
          userNum=prompt("you entered the wrong number ")
      }
     console.log("congratulation you entered the right number");  
+
+///Q.5 prompt the user to enter their fullname.Generate a username based on the input.Starts with @,followed by their fullname 
+// and ending by their fullname length.
+    // let str=prompt("Enter your fullname ");
+    let res="@"+str+str.length;
+    console.log(res);
+
