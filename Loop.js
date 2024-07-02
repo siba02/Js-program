@@ -52,7 +52,8 @@ while(condition){
    for(letVal of strVar){
     condition;
    }
-//    Example
+// print all the  character of string 
+   Example
 
  let str="i am invincible"
     let size=0;
@@ -64,11 +65,12 @@ while(condition){
 
 
 
-///for-in loop (for object and array)
+// for-in loop (for object and array)
 
     for(letKey in objVar){
         condition;
     }
+    // print the keys in objects.
 
     let student={
         name:"tofan",
