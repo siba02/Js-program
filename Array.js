@@ -1,10 +1,10 @@
 ///  Array is the collection of items.
-//arrey is mutable.
+//array is mutable.
 let num=[50,46,87,95,64,23];
 num[2]=44;
 console.log(num);
-typeof num=oject.
-num.length=6
+// typeof num=oject.
+// num.length=6
 
 // array indices(arr[0],arr[1],arr[2]...)
 

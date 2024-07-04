@@ -1,4 +1,4 @@
-///Q.1 check if multiple of 6 or not.
+//?Q.1 check if multiple of 6 or not.
 let x=prompt("Enter a number")
  if(x%6===0){
     console.log(x," is  divisible 6 ")
@@ -8,7 +8,7 @@ let x=prompt("Enter a number")
  }
 
 
-// Q.2 greade system 90-100(A),70-89(B),60-69(C),50-59(D),<49(F)
+//?Q.2 greade system 90-100(A),70-89(B),60-69(C),50-59(D),<49(F)
 
 let score=prompt("enter your score");
 let grade;
@@ -28,14 +28,14 @@ else{
 }
 console.log(grade)
 
-/// Q.3 print all the even numbers from 0 to 100.
+//? Q.3 print all the even numbers from 0 to 100.
   for(let i=0;i<=100;i++){
     if(i%2==0){
         console.log(i);
     }
   }
 
-///Q.4 create a game where you start with any random game number.
+//?Q.4 create a game where you start with any random game number.
 // Ask the user to keep guessing the number until the user enters the correct value.
      let gameNum=80;
      let userNum=prompt("Enter the game number")
@@ -44,13 +44,13 @@ console.log(grade)
      }
     console.log("congratulation you entered the right number");  
 
-///Q.5 prompt the user to enter their fullname.Generate a username based on the input.Starts with @,followed by their fullname 
+//?Q.5 prompt the user to enter their fullname.Generate a username based on the input.Starts with @,followed by their fullname 
 // and ending by their fullname length.
     let str=prompt("Enter your fullname ");
     let res="@"+str+str.length;
     console.log(res);
 
-///Q.6 For a given array with mark of students ->[52,64,98,74,55,68].Find the average mark of the entire class.
+//?Q.6 For a given array with mark of students ->[52,64,98,74,55,68].Find the average mark of the entire class.
        let marks=[52,64,98,74,55,68];
        let sum=0;
        for(let i=0;i<marks.length;i++){
@@ -58,7 +58,7 @@ console.log(grade)
        }
        let avg=sum/marks.length;
        console.log(avg);
-// or
+//!
 
        let mark=[52,64,98,74,55,68];
        let n=0;
@@ -67,4 +67,18 @@ console.log(grade)
        }
        let avge=n/mark.length;
        console.log(avge);
+
+//?Q.7 For a given array with prices of 5 items ->[650,453,854,230,852,456].All items have an offer of 10% off on them.Change the array to store final price after applying the offer.
+      let item=[600,453,854,230,852,456];
+      for(let i=0;i<item.length;i++){
+         item[i]=item[i]-item[i]*0.1;
+      }
+      console.log(item);
+
+//!  
+for(let i=0;i<item.length;i++){
+    let offer=item[i]/10;
+    item[i]=item[i]-offer;
+  }
+ console.log(item);
 
