@@ -82,3 +82,5 @@ for(let i=0;i<item.length;i++){
   }
  console.log(item);
 
+ //?Q.11 Given an array of numbers ->[1,2,3,4,5,6,7,8,9]. Write a JavaScript code to remove all the even numbers from the array.
+
