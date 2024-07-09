@@ -45,3 +45,26 @@ function add(x,y){
  let val = add(100,200);
  console.log(val);
 
+
+
+
+//   Arrow function.
+    //  compact way of writing a function.
+
+    const functionName=(param1,param2)=>{
+        //   code here.
+    }  
+
+   const arrowsum= (a,b)=>{
+        console.log(a+b);
+    }
+
+
+
+    const arrowmul=(a,b)=>{
+        return a*b;
+    }
+
+    const hii=()=>{
+        console.log("hii there")
+    }
