@@ -99,6 +99,6 @@ let arr=[1,2,3,4,5,6,7,8,9]
 // ? c.Add amazon at the end.
 
 let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
- arr1.shift();
- arr1.splice(1,1,"Ola");
- arr1.push("Amazon");
+ arr1.shift();            //[ "Microsoft","Uber","Google","IBM","Netflix"]
+ arr1.splice(1,1,"Ola");  //["Microsoft","Ola","Google",IBM","Netflix"]
+ arr1.push("Amazon");     //["Microsoft","Ola","Google",IBM",""Netflix","Amazon"]
