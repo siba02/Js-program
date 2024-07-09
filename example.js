@@ -93,7 +93,7 @@ let arr=[1,2,3,4,5,6,7,8,9]
  }
  console.log(arr);
 
-//? create an array to store companies-> "Bloomberg","Microsoft","Uber","Google","IBM","Netflix".
+//?Q.12 create an array to store companies-> "Bloomberg","Microsoft","Uber","Google","IBM","Netflix".
 // ? a. remove the first company from the array.
 // ? b. remove Uber and add Ola in its place.
 // ? c.Add amazon at the end.
@@ -102,3 +102,28 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
  arr1.shift();            //[ "Microsoft","Uber","Google","IBM","Netflix"]
  arr1.splice(1,1,"Ola");  //["Microsoft","Ola","Google",IBM","Netflix"]
  arr1.push("Amazon");     //["Microsoft","Ola","Google",IBM",""Netflix","Amazon"]
+
+
+// ?Q.13 create a function using the "function" keyword that takes a string as an argument and returns the number of vowels in the string.
+          function vowels(str){
+            let count=0;
+            for(i=0;i<=str.length;i++){
+                if(str[i]==="a"||str[i]==="e"||str[i]==="i"||str[i]==="o"||str[i]==="u"||str[i]==="A"||str[i]==="E"||str[i]==="I"||str[i]==="O"||str[i]==="U"){
+                    count++;
+                }
+            }
+            console.log(count);
+          }
+
+    //! 
+                              const  vowels=(str)=>{
+                                let count=0;
+                                for(i=0;i<=str.length;i++){
+                                    if(str[i]==="a"||str[i]==="e"||str[i]==="i"||str[i]==="o"||str[i]==="u"||str[i]==="A"||str[i]==="E"||str[i]==="I"||str[i]==="O"||str[i]==="U"){
+                                        count++;
+                                    }
+                                }
+                                return count;
+                              }
+
+                             
