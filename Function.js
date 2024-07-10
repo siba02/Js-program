@@ -68,3 +68,42 @@ function add(x,y){
     const hii=()=>{
         console.log("hii there")
     }
+
+
+//  for each loop in array
+//  arr.forEach(callBackFunction)
+// callBackFunction-Here , it is a function to execute for each element in the array.
+//  A callback is a Function passed as an argument to another function.
+
+arr.forEach((val)=>{
+    console.log(val);
+})
+
+function sum(){
+    console.log("hello");
+}
+
+function myfunction(sum){      // pass sum as an argument.
+    return sum;
+}
+
+// Example.                                         //1
+let arr = [1,2,3,4,5];                              //2
+arr.forEach (function printval(val){                //3
+    console.log(val);                               //4
+    })                                              //5
+
+
+// ! 
+        arr.forEach((val)=>{
+            console.log(val);
+        })
+
+/// in forEach function we can pass three parameters - value,Idx,arr.
+let arr1=["mumbai","mp","ap","goa"];
+arr1.forEach((val,Idx,arr)=>{
+    console.log(val.toUpperCase(),Idx,arr); // console
+})
+
+//?Higher order function/methods .
+
