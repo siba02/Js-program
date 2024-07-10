@@ -75,9 +75,9 @@ function add(x,y){
 // callBackFunction-Here , it is a function to execute for each element in the array.
 //  A callback is a Function passed as an argument to another function.
 
-arr.forEach((val)=>{
-    console.log(val);
-})
+// arr.forEach((val)=>{
+//     console.log(val);
+// })
 
 function sum(){
     console.log("hello");
