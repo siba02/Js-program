@@ -124,6 +124,18 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
                                     }
                                 }
                                 return count;
-                              }
+                            }
+    
+// //?For a given array of numbers,print the squre of each value using the forEach loop.  
+          let mul=[1,2,3,4,5];
+          mul.forEach((mul)=>{
+            console.log(mul*mul);  
+          });
+// !
+      let nums=[1,2,3,4,5];
 
-                             
+      let value=(mul)=>{
+        console.log(mul*mul);
+      }
+
+      nums.forEach(value);

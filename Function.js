@@ -70,8 +70,8 @@ function add(x,y){
     }
 
 
-//  for each loop in array
-//  arr.forEach(callBackFunction)
+//  for each loop in array.
+//  arr.forEach(callBackFunction).
 // callBackFunction-Here , it is a function to execute for each element in the array.
 //  A callback is a Function passed as an argument to another function.
 
@@ -106,4 +106,6 @@ arr1.forEach((val,Idx,arr)=>{
 })
 
 //?Higher order function/methods .
+/* These are the functions or methods in javascript that either take another function as parameter inside them or 
+they return another function as their output.*/
 
