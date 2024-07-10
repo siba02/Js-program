@@ -126,7 +126,7 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
                                 return count;
                             }
     
-// //?For a given array of numbers,print the squre of each value using the forEach loop.  
+//?For a given array of numbers,print the squre of each value using the forEach loop.  
           let mul=[1,2,3,4,5];
           mul.forEach((mul)=>{
             console.log(mul*mul);  
@@ -139,3 +139,33 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
       }
 
       nums.forEach(value);
+
+//?Given array of marks of students.Filter out the mark of students that score 90 above.
+    let students=[58,94,87,62,91,95,77,83];
+    let above=students.filter((val)=>{
+        return val>90;
+    })
+    console.log(above);
+
+//? Take a number n as input from user.Create an array of numbers from 1 to n.
+// ? ues reduce method to calculate sum of all numbers in the array.
+// ?ues reduce method to calculate product of all numbers in the array.
+
+let m =prompt("enter a number");
+let arr2=[];
+for(let i=1;i<=m;i++){
+    arr2[i-1]=i;
+}
+ console.log(arr2);
+
+let add=arr2.reduce((res,cur)=>{
+    return res+cur;
+});
+
+console.log("sum=",add);
+
+let product =arr2.reduce((res,cur)=>{
+    return res*cur;
+});
+
+console.log("product=",product);
