@@ -102,10 +102,58 @@ arr.forEach (function printval(val){                //3
 /// in forEach function we can pass three parameters - value,Idx,arr.
 let arr1=["mumbai","mp","ap","goa"];
 arr1.forEach((val,Idx,arr)=>{
-    console.log(val.toUpperCase(),Idx,arr); // console
+    console.log(val.toUpperCase(),Idx,arr); 
 })
 
 //?Higher order function/methods .
 /* These are the functions or methods in javascript that either take another function as parameter inside them or 
 they return another function as their output.*/
 
+
+// map-create a new array with the result of some operation.The value its callback returns are used to form new array.
+// arr.map(callbackfunction(value,Idx,array))
+
+// let newArray=arr.map((val)=>{
+    // return val*2;
+    // })
+
+ let arr2=[1,2,3,4,5];
+ let newArr=arr2.map((val)=>{
+     return val*2;
+ })
+
+ console.log(newArr); //[2,4,6,8,10]        
+
+
+
+ // filter-creates a new array of elements that give true for a condition/filter.
+//   let newArray=arr.filter((val)=>{
+    //    return val%2==0;
+    //   })
+
+
+let arr3=[1,2,3,4,5,6,7,8];
+let evenarray=arr3.filter((val)=>{
+    return val%2==0;
+})
+
+console.log(evenarray); //[2,4,6,8]
+
+// reduce-perform some operations and reduce the array to a singel value.I returns that single value.
+let arr4=[1,2,3,4,5,6,7,8]
+
+const output=arr4.reduce((res,curr)=>{
+    return res+curr;
+
+})
+
+console.log(output); //36
+
+
+// !
+
+let numb=[54,21,65,82,98];
+ const res=numb.reduce((prev,curr)=>{
+    return prev>curr?prev:curr;
+ })
+console.log(res);

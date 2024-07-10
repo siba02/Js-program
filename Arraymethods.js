@@ -54,3 +54,4 @@ console.log(arr);
 // Replace Element
 arr.splice(5,1,69);
 //ans-1,2,3,64,"hello",69,8
+
