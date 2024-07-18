@@ -36,7 +36,7 @@ console.log(grade)
   }
 
 //?Q.4 create a game where you start with any random game number.
-// Ask the user to keep guessing the number until the user enters the correct value.
+//?Ask the user to keep guessing the number until the user enters the correct value.
      let gameNum=80;
      let userNum=prompt("Enter the game number")
      while(userNum!=gameNum){
