@@ -5,7 +5,7 @@ for (let i=1; i<=10;i++){
      console.log("i=",i );
     console.log("i'm in the room")
  }
-  console.log(i);  //if print the i  afyer the loop it gives i is not defined because let is block scope variables it works in case of var.
+  console.log(i);  //if print the i  after the loop it gives i is not defined because let is block scope variables it works in case of var.
 
 
 // calculate the sum 1 to n;
