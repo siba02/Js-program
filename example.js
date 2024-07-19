@@ -114,17 +114,20 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
             }
             console.log(count);
           }
+          console.log(vowels("hi this is a string"));
 
     //! 
-                              const  vowels=(str)=>{
+                              const  vowelss=(str)=>{
                                 let count=0;
-                                for(i=0;i<=str.length;i++){
-                                    if(str[i]==="a"||str[i]==="e"||str[i]==="i"||str[i]==="o"||str[i]==="u"||str[i]==="A"||str[i]==="E"||str[i]==="I"||str[i]==="O"||str[i]==="U"){
+                                for(const char of str){
+                                    if(char==="a"||char==="e"||char==="i"||char==="o"||char==="u"||char==="A"||char==="E"||char==="I"||char==="O"||char==="U"){
                                         count++;
                                     }
                                 }
                                 return count;
                             }
+                            let value2=vowelss("hi this is a string");
+                            console.log(value2);
     
 //?For a given array of numbers,print the squre of each value using the forEach loop.  
           let mul=[1,2,3,4,5];
