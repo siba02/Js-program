@@ -151,8 +151,8 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
     console.log(above);
 
 //? Take a number n as input from user.Create an array of numbers from 1 to n.
-// ? ues reduce method to calculate sum of all numbers in the array.
-// ?ues reduce method to calculate product of all numbers in the array.
+// ? use reduce method to calculate sum of all numbers in the array.
+// ?use reduce method to calculate product of all numbers in the array.
 
 let m =prompt("enter a number");
 let arr2=[];

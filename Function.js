@@ -37,7 +37,7 @@ sum(100,200);
 
 // return
 function add(x,y){
-    // the parameters are the local variable of the function.And have block scope.
+    // the parameters are the local variable of the function.And have block scope.  
     s=x+y;
     return s;     //the code written after return never execute.
 }
