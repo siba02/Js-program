@@ -2,11 +2,11 @@ body{
     background-color: yellow;
 }
 
-button{
+#myid{
     color:white;
     background-color:black;
 }
 
-h1{
+.heading{
     color: blueviolet;
 }
