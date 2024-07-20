@@ -38,3 +38,24 @@ console.dir(headings);
 
 let paragraphs=document.getElementsByTagName("p");
 console.dir(paragraphs);
+
+
+/// Query selector.
+
+// document.querySelector("myid/myclass/tag"); // return first element.
+// document.querySelectorAll("myid/myclass/tag"); // return a node list.
+
+let myElement=document.querySelector("#myid"); //id's are generally denoted by # symbols.
+console.dir(myElement);
+
+let myClassElement=document.querySelector(".heading"); //class is usually denoted by . symbol.
+console.dir(myClassElement);
+
+let ClassElement=document.querySelectorAll(".heading"); //class is usually denoted by . symbol.
+console.dir(ClassElement);
+
+let parh=document.querySelector("p");
+console.dir(parh);
+
+let pars=document.querySelectorAll("p");
+console.dir(pars);
