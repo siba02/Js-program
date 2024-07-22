@@ -60,11 +60,30 @@ console.dir(parh);
 let pars=document.querySelectorAll("p");  
 console.dir(pars);
 
+// --------------- the above for index.html -------------------
 
 
+//---------------Dom.html----------------
 ///Dom manupulation 
 // properties.
 
-// 1. tagName
-//   example-parh.tagName="p".
+// In Dom tree there are three types of nodes are present:- text nodes,comment nodes,element nodes.
 
+let div=document.querySelector("div");
+      console.dir(div);
+
+let heading=document.querySelector("h1");
+    console.dir(heading);
+
+
+// 1. tagName(return tag for element nodes).
+//   example- parh.tagName="p".
+
+// 2. innerText(return the text content of the element and its children)
+//    example-'Name of the cities\nDelhi\nMp\nGoa\nAp'
+      
+// 3.innerHtml(returns the plain text or html content of the element) 
+//   example-'\n <h1>Name of the cities</h1>\n  <ul>\n  <li>Delhi</li>\n  <li>Mp</li>\n  <li>Goa</li>\n  <li>Ap</li>\n  </ul>\n'
+
+// 4.textContent(text content returns textual content even for hidden elements)
+//  example- heading.textContent='the text'        
