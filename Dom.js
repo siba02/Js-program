@@ -57,5 +57,14 @@ console.dir(ClassElement);
 let parh=document.querySelector("p");
 console.dir(parh);
 
-let pars=document.querySelectorAll("p");
+let pars=document.querySelectorAll("p");  
 console.dir(pars);
+
+
+
+///Dom manupulation 
+// properties.
+
+// 1. tagName
+//   example-parh.tagName="p".
+

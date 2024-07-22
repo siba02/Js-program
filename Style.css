@@ -2,11 +2,11 @@ body{
     background-color: yellow;
 }
 
-#myid{
+#myid{                                 /* style basis of id*/
     color:white;
     background-color:black;
 }
 
-.heading{
+.heading{                                /* style in basis of class*/
     color: blueviolet;
 }
