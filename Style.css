@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: yellow;
 }
 
@@ -9,4 +9,14 @@ body{
 
 .heading{                                /* style in basis of class*/
     color: blueviolet;
+} 
+
+.pit{
+    height: 100px ;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }

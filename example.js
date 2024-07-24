@@ -1,4 +1,4 @@
-//?Q.1 check if multiple of 6 or not.
+/*/?Q.1 check if multiple of 6 or not.
 let x=prompt("Enter a number")
  if(x%6===0){
     console.log(x," is  divisible 6 ")
@@ -171,4 +171,18 @@ let product =arr2.reduce((res,cur)=>{
     return res*cur;
 });
 
-console.log("product=",product);
+console.log("product=",product);*/
+
+
+// //?Create a h1 heading element with text-"Hello this is tofan".Append"from Talcher"to this text using js.
+// let h1=document.querySelector("h1");
+// console.dir(h1.innerText);
+// h1.innerText=h1.innerText +" from talcher";
+
+//?create 3 divs with common class name"pit".Access them and add some unique text to each of them.
+let div=document.querySelectorAll(".pit");
+let idx=1;
+for(val of div){
+    val.innerText=`unique text${idx}`;
+    idx++;
+}
