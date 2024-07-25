@@ -19,11 +19,11 @@ console.log(graph.setAttribute("class","got"));
 
 //3.Node.style.
 
-// let divv=document.querySelector("div");
-// console.log(divv);
+let divv=document.querySelector("div");
+console.log(divv);
 
-// divv.style.backgroundColor="purple";
-// divv.style.fontSize="30px";
+divv.style.backgroundColor="purple";
+divv.style.fontSize="30px";
 
 
 

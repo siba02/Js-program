@@ -129,7 +129,7 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
                             let value2=vowelss("hi this is a string");
                             console.log(value2);
     
-//?For a given array of numbers,print the squre of each value using the forEach loop.  
+//?14.For a given array of numbers,print the squre of each value using the forEach loop.  
           let mul=[1,2,3,4,5];
           mul.forEach((mul)=>{
             console.log(mul*mul);  
@@ -143,14 +143,14 @@ let arr1=[ "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
 
       nums.forEach(value);
 
-//?Given array of marks of students.Filter out the mark of students that score 90 above.
+//?15.Given array of marks of students.Filter out the mark of students that score 90 above.
     let students=[58,94,87,62,91,95,77,83];
     let above=students.filter((val)=>{
         return val>90;
     })
     console.log(above);
 
-//? Take a number n as input from user.Create an array of numbers from 1 to n.
+//?16. Take a number n as input from user.Create an array of numbers from 1 to n.
 // ? use reduce method to calculate sum of all numbers in the array.
 // ?use reduce method to calculate product of all numbers in the array.
 
@@ -171,18 +171,26 @@ let product =arr2.reduce((res,cur)=>{
     return res*cur;
 });
 
-console.log("product=",product);*/
+console.log("product=",product);
 
 
-// //?Create a h1 heading element with text-"Hello this is tofan".Append"from Talcher"to this text using js.
+//?17.Create a h1 heading element with text-"Hello this is tofan".Append"from Talcher"to this text using js.
 // let h1=document.querySelector("h1");
 // console.dir(h1.innerText);
 // h1.innerText=h1.innerText +" from talcher";
 
-//?create 3 divs with common class name"pit".Access them and add some unique text to each of them.
+//?18.create 3 divs with common class name"pit".Access them and add some unique text to each of them.
 let div=document.querySelectorAll(".pit");
 let idx=1;
 for(val of div){
     val.innerText=`unique text${idx}`;
     idx++;
-}
+}*/
+
+//?19.create a new button element.Give it a text "click me",background colour of green and text colour of white.Insert the button as the first element inside the body tag.
+
+let btn=document.createElement("button");
+btn.innerText="click me";
+btn.style.backgroundColor="greenyellow";
+btn.style.color="black";
+document.querySelector("body").prepend(btn);
