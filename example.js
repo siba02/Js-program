@@ -175,9 +175,9 @@ console.log("product=",product);
 
 
 //?17.Create a h1 heading element with text-"Hello this is tofan".Append"from Talcher"to this text using js.
-// let h1=document.querySelector("h1");
-// console.dir(h1.innerText);
-// h1.innerText=h1.innerText +" from talcher";
+let h1=document.querySelector("h1");
+console.dir(h1.innerText);
+h1.innerText=h1.innerText +" from talcher";
 
 //?18.create 3 divs with common class name"pit".Access them and add some unique text to each of them.
 let div=document.querySelectorAll(".pit");
