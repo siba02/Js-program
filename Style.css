@@ -1,5 +1,5 @@
  body{
-    background-color: yellow;
+    background-color: white;
 }
 
 #myid{                                 /* style basis of id*/
@@ -19,4 +19,15 @@
     text-align: center;
     color: white;
     background-color: black;
+}
+
+
+#hi{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    background-color: greenyellow;
 }
