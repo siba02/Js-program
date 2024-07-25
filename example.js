@@ -1,4 +1,4 @@
-/*/?Q.1 check if multiple of 6 or not.
+//?Q.1 check if multiple of 6 or not.
 let x=prompt("Enter a number")
  if(x%6===0){
     console.log(x," is  divisible 6 ")
@@ -185,7 +185,7 @@ let idx=1;
 for(val of div){
     val.innerText=`unique text${idx}`;
     idx++;
-}*/
+}
 
 //?19.create a new button element.Give it a text "click me",background colour of green and text colour of white.Insert the button as the first element inside the body tag.
 
@@ -194,3 +194,15 @@ btn.innerText="click me";
 btn.style.backgroundColor="greenyellow";
 btn.style.color="black";
 document.querySelector("body").prepend(btn);
+
+//?20.create a <p> tag in html,give it a class and some styling.Now create a new class in css and try to append this class to the <p> element.
+// using class list.
+// in css
+
+let pg=document.querySelector("p");
+
+pg.classList.add("cls2");
+
+
+
+
