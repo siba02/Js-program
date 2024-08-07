@@ -40,3 +40,28 @@
 // node.removeEventlistener(event,callback);
 
 // the callback reference should be same to remove.
+
+let btn2=document.querySelector("#btn");
+btn2.addEventListener("click",() =>{
+    console.log("button is on");
+});
+
+
+btn2.addEventListener("click",() =>{
+    console.log("button is on 2x");
+});
+
+
+btn2.addEventListener("click",() =>{
+    console.log("button is on 3x");
+});
+
+
+btn2.addEventListener("click",() =>{
+    console.log("button is on 4x");
+});
+
+btn2.addEventListener("click",() =>{
+    console.log("button is off");
+});
+
