@@ -17,3 +17,26 @@
 
 /// The priority of the js handle is higher than the inline handle.
 /// If we define multiple handlers the latest handler overrides the previous one.
+
+//! Event object.
+// it is a special object that has details about the event.
+// All event handlers have access to the event object's properties and methods.
+
+           // node.event=(e)=>{
+               // logic goes here.
+        // }
+
+        let btn1=document.querySelector("#btn");
+        btn.onclick=(e)=>{
+            console.log(e); 
+            console.log(e.type);
+            console.log(e.target); // returns the element that triggered the event.
+            console.log(e.clientX, e.clientY);
+        };
+
+//! Event listeners.
+//  node.addEventListener(event, callback);
+
+// node.removeEventlistener(event,callback);
+
+// the callback reference should be same to remove.
