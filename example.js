@@ -1,4 +1,4 @@
-//?Q.1 check if multiple of 6 or not.
+/*/?Q.1 check if multiple of 6 or not.
 let x=prompt("Enter a number")
  if(x%6===0){
     console.log(x," is  divisible 6 ")
@@ -197,12 +197,26 @@ document.querySelector("body").prepend(btn);
 
 //?20.create a <p> tag in html,give it a class and some styling.Now create a new class in css and try to append this class to the <p> element.
 // using class list.
-// in css
+// in css 
 
 let pg=document.querySelector("p");
 
-pg.classList.add("cls2");
+pg.classList.add("cls2");*/
 
 
+//?21.create a toogle button that changes the screen to dark-mode when clicked and light-mode when clicked again.
 
+let btn=document.querySelector("#tog");
+let color="light";
 
+btn.addEventListener("click",()=>{
+    if(color==="light"){
+        color="dark";
+        // document.body.style.backgroundColor="black";
+        document.querySelector("body").style.backgroundColor="black";
+    }else{
+        color="light";
+        document.body.style.backgroundColor="white";
+    }
+    console.log(color);
+});
