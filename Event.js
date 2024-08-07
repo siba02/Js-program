@@ -51,11 +51,10 @@ btn2.addEventListener("click",() =>{
     console.log("button is on 2x");
 });
 
-
-btn2.addEventListener("click",() =>{
+const handeler3=()=>{
     console.log("button is on 3x");
-});
-
+}
+btn2.addEventListener("click",handeler3);
 
 btn2.addEventListener("click",() =>{
     console.log("button is on 4x");
@@ -65,3 +64,4 @@ btn2.addEventListener("click",() =>{
     console.log("button is off");
 });
 
+btn2.removeEventListener("click",handeler3);
