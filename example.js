@@ -1,4 +1,4 @@
-/*/?Q.1 check if multiple of 6 or not.
+//?Q.1 check if multiple of 6 or not.
 let x=prompt("Enter a number")
  if(x%6===0){
     console.log(x," is  divisible 6 ")
@@ -201,7 +201,7 @@ document.querySelector("body").prepend(btn);
 
 let pg=document.querySelector("p");
 
-pg.classList.add("cls2");*/
+pg.classList.add("cls2");
 
 
 //?21.create a toogle button that changes the screen to dark-mode when clicked and light-mode when clicked again.
