@@ -47,7 +47,7 @@ function add(x,y){
 
 
 
-//   Arrow function.
+//!  Arrow function.
     //  compact way of writing a function.
 
     const functionName=(param1,param2)=>{
@@ -69,7 +69,7 @@ function add(x,y){
     }
 
 
-//  for each loop in array.
+//! for each loop in array.
 //  arr.forEach(callBackFunction).
 // callBackFunction-Here , it is a function to execute for each element in the array.
 //  A callback is a Function passed as an argument to another function.
